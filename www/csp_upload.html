@@ -1,0 +1,41 @@
+<!DOCTYPE>
+<head>
+	<title>Upload File</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+   <link href="bootstrap/css/style.css" rel="stylesheet" type="text/css">
+
+<script src="bootstrap/js/jquery-1.9.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/script.js"></script>
+
+</head>
+<body style="padding:16px">
+
+<form method="post" action="/?upload.c">
+	<legend> upload file </legend>
+	<input type="file" name="myFile" id="myFile"/>
+	<div class="form-actions">
+		<input class="btn btn-primary" type="submit" value="upload!"/>
+	</div>
+</form>
+
+<hr/>
+
+<div class="progress progress-striped active hide">
+	<div class="bar" style="width: 0%;"></div>
+</div>
+
+<div>
+	<div class="alert hide">
+		<button class="close" type="button" data-dissmiss="alert">x</button>
+		<span>
+			<strong class="message"></strong>
+		</span>
+	</div>
+</div>
+
+</body>
+</html>
+
